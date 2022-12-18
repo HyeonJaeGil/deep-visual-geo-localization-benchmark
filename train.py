@@ -13,7 +13,7 @@ from torch.utils.data.dataloader import DataLoader
 
 import util
 import test
-import parser
+import parser_1 as parser
 import commons
 import datasets_ws
 from model import network

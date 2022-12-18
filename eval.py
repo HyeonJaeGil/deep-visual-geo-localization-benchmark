@@ -21,7 +21,7 @@ results in VG)
 import os
 import sys
 import torch
-import parser
+import parser_1 as parser
 import logging
 import sklearn
 from os.path import join
