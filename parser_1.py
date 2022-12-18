@@ -83,7 +83,7 @@ def parse_arguments():
     parser.add_argument("--dataset_name", type=str, default="pitts30k", help="Relative path of the dataset")
     parser.add_argument("--pca_dataset_folder", type=str, default=None,
                         help="Path with images to be used to compute PCA (ie: pitts30k/images/train")
-    parser.add_argument("--save_dir", type=str, default="default",
+    parser.add_argument("--save_dir", type=str, default="",
                         help="Folder name of the current run (saved in ./logs/)")
     args = parser.parse_args()
     
